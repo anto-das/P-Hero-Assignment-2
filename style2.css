@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
     font-family:"Inter", sans-serif;;
 }
-/* shared contents */
+/* shared contents start */
 .display{
     display: flex;
 }
@@ -12,17 +13,27 @@ body{
     font-weight: 400;
     line-height: 120%;
 }
-/* shared contents */
+.btn-primary{
+    background-color: rgb(230, 83, 60);
+    border: none;
+    padding: 1rem 2.8rem;
+    border-radius: 2.6rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+/* shared contents close */
 header{
     max-width: 100%;
     border: 1px solid red;
-    background: linear-gradient(180.00deg, rgb(17,17,17),rgba(119,119,119,0) 100%);
+    /* background: linear-gradient(180.00deg, rgb(17,17,17),rgba(119,119,119,0) 100%); */
+    background-color: rgb(28, 27, 27);
 }
 /* navbar-part-section*/
 .navbar-content{
     justify-content: space-between;
     align-items: center;
-    margin:3.4rem  11.8rem ;
+    margin:2rem  11.8rem ;
 }
 .brand-content{
     color: rgb(230, 83, 60);
@@ -56,4 +67,107 @@ li{
     padding: 0.4rem 1.2rem;
     border-radius: 2.8rem;
 }
+.font-style{
+    display: none;
+}
 /* navbar-section-end */
+
+/* banner-part-start */
+.banner-content{
+    max-width: 35%;
+    margin-left: 11.8rem;
+    margin-top: 6rem;
+}
+.banner-title{
+    font-size: 4.8rem;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin: 0;
+}
+#shape{
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-size: 8rem;
+}
+.banner-container{
+    margin-top: 1.6rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.Download{
+    padding: 1rem 2.8rem;
+    border: 1px solid rgb(252, 242, 242);
+    border-radius: 2.6rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(28, 27, 27);
+}
+.banner-image{
+    max-width: 100%;
+    margin-left: 10.43rem;
+}
+.dot-circle{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 80,60);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1.2rem 0rem 1.2rem 0.5rem;
+}
+.video-content{
+    padding: 1.2rem 0.5rem;
+}
+.number{
+    margin: 0%;
+    color: rgb(250, 250, 249);
+    font-weight: 900;
+    font-size: 1.2rem;
+    padding-bottom: 0.2rem;
+}
+.title{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+.position-button-contents-1{
+    max-width: 132%;
+    height: 6rem;
+    /* margin-bottom: 5%; */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    background: rgba(48, 48, 48, 0.54);
+    position: relative;
+    left: 5.48rem;
+    top: -9.87rem;
+}
+.position-button-content-2{
+    max-width: 132%;
+    height: 6rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    background: rgba(48, 48, 48, 0.54);
+    position: relative;
+    left: 24.37rem;
+    top: -35.8rem;
+}
+.number-2{
+    margin: 0%;
+    padding-left: 1.1rem;
+    padding-bottom: 0.1rem;
+    color: rgba(255, 255, 255);
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+.title-2{
+    padding-left: 1.1rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+}
+.banner-button-card{
+    position:absolute;
+}
+/* banner-part-close */

@@ -1,0 +1,44 @@
+@media screen and (max-width:576px){
+    /* navbar-part-start */
+    .navbar-content{
+        max-width: 100%;
+        margin: 0;
+        margin-left: 1rem;
+    }
+    .menubar-content{
+        display: none;
+    }
+    .font-style{
+        display: unset;
+        color: rgb(255, 255, 255);
+        margin-right: 1rem;
+    }
+    /* navbar-part-close */
+
+    /* banner-part-start */
+    .banner-all-container{
+        flex-direction: column;
+    }
+    .banner-content{
+        max-width: 100%;
+        margin-left: 1.1rem;
+        margin-top: 6rem;
+    }
+    .banner-image{
+        max-width: 100%;
+        margin: 3rem 1.1rem;
+    }
+    .position-button-contents-1{
+        position: relative;
+    left: 1.5rem;
+    top: -24.95rem;
+    }
+    .position-button-content-2{
+        position: relative;
+    left: 13.37rem;
+    top: -42.8rem;
+    }
+    .banner-button-card{
+        position:absolute;
+    }
+}
