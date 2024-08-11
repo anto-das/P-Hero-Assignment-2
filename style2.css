@@ -25,9 +25,8 @@ body{
 /* shared contents close */
 header{
     max-width: 100%;
-    border: 1px solid red;
-    /* background: linear-gradient(180.00deg, rgb(17,17,17),rgba(119,119,119,0) 100%); */
-    background-color: rgb(28, 27, 27);
+    background: linear-gradient(180.00deg, rgb(17,17,17),rgba(119,119,119,0) 100%);
+    /* background-color: rgb(28, 27, 27); */
 }
 /* navbar-part-section*/
 .navbar-content{
