@@ -3,12 +3,14 @@
     .navbar-content{
         max-width: 100%;
         margin: 0;
-        margin-left: 1rem;
     }
+    /* .brand-content{
+        margin-left: 1rem;
+    } */
     .menubar-content{
         display: none;
     }
-    .font-style{
+    .menubar-style{
         display: unset;
         color: rgb(255, 255, 255);
         margin-right: 1rem;
@@ -19,10 +21,16 @@
     .banner-all-container{
         flex-direction: column;
     }
+    /* banner-content-part */
     .banner-content{
         max-width: 100%;
-        margin-left: 1.1rem;
-        margin-top: 6rem;
+        margin-left: 0.6rem;
+        padding-right: 0.7rem;
+        margin-top: 2.8rem;
+    }
+    .banner-title{
+        font-size: 3.5rem;
+        line-height: 120%;
     }
     .Download{
         padding: 1rem;
@@ -32,20 +40,45 @@
     }
     .banner-image{
         max-width: 100%;
-        margin: 3rem 1.1rem 0rem 1.1rem;
-        /* position: absolute; */
+        margin-left: 1.4rem;
     }
+    /* image-position-button-part */
     .position-button-contents-1{
-        max-width: 100%;
+        max-width: 155px;
+        /* margin-right: 2rem; */
         position: relative;
-    left: 1.5rem;
-    top: -24.95rem;
+    left: 2rem;
+    top: -19.99rem;
+    }
+    .dot-circle{
+        width: 30px;
+        height: 30px;
+        margin-left: 0.9rem;
+    }
+    .number{
+        font-size: 1.1rem;
+    }
+    .title{
+        font-size: 0.75rem;
+
     }
     .position-button-content-2{
-        max-width: 100%;
+        max-width: 140px;
+        /* padding-right: 2rem; */
+        margin-right: 1.5rem;
         position: relative;
     left: 13.37rem;
     top: -39.8rem;
+    }
+    .number-2{
+        font-size: 1.8rem;
+        padding-left: 0.5rem;
+    padding-right: 0rem;
+    }
+    .title-2{
+        font-size: 0.6rem;
+        margin-left: 0.7rem;
+        letter-spacing: 10%;
     }
     .banner-button-card{
         position:absolute;
