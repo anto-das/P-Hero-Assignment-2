@@ -24,19 +24,28 @@
         margin-left: 1.1rem;
         margin-top: 6rem;
     }
+    .Download{
+        padding: 1rem;
+    }
+    .club{
+        display: none;
+    }
     .banner-image{
         max-width: 100%;
-        margin: 3rem 1.1rem;
+        margin: 3rem 1.1rem 0rem 1.1rem;
+        /* position: absolute; */
     }
     .position-button-contents-1{
+        max-width: 100%;
         position: relative;
     left: 1.5rem;
     top: -24.95rem;
     }
     .position-button-content-2{
+        max-width: 100%;
         position: relative;
     left: 13.37rem;
-    top: -42.8rem;
+    top: -39.8rem;
     }
     .banner-button-card{
         position:absolute;

@@ -25,7 +25,8 @@ body{
 /* shared contents close */
 header{
     max-width: 100%;
-    background: linear-gradient(180.00deg, rgb(17,17,17),rgba(119,119,119,0) 100%);
+
+    background: linear-gradient(180.00deg, rgba(17,17,17, -.747)0%,rgb(30,30,30) 50%), rgba(1, 1, 1, 0.719)100%;
     /* background-color: rgb(28, 27, 27); */
 }
 /* navbar-part-section*/
@@ -41,12 +42,12 @@ header{
 }
 .menubar-content{
     max-width: 45%;
-    border: 1px solid  rgba(15, 15, 15, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 2.8rem;
     /* justify-content: flex-start; */
     align-items: center;
     padding: 0.9rem 0rem;
-    gap: 3rem;
+    gap: 2.8rem;
     /* margin-right: 3rem; */
 }
 li{
@@ -59,6 +60,9 @@ li{
 }
 .what{
     margin-right: 0.8rem;
+}
+.about{
+
 }
 .what2{
     margin: 0.2rem;
@@ -155,7 +159,6 @@ li{
 .number-2{
     margin: 0%;
     padding-left: 1.1rem;
-    padding-bottom: 0.1rem;
     color: rgba(255, 255, 255);
     font-size: 2.2rem;
     font-weight: 900;
