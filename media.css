@@ -4,9 +4,6 @@
         max-width: 100%;
         margin: 0;
     }
-    /* .brand-content{
-        margin-left: 1rem;
-    } */
     .menubar-content{
         display: none;
     }
@@ -45,7 +42,6 @@
     /* image-position-button-part */
     .position-button-contents-1{
         max-width: 155px;
-        /* margin-right: 2rem; */
         position: relative;
     left: 2rem;
     top: -19.99rem;
@@ -64,7 +60,6 @@
     }
     .position-button-content-2{
         max-width: 140px;
-        /* padding-right: 2rem; */
         margin-right: 1.5rem;
         position: relative;
     left: 13.37rem;
@@ -83,4 +78,35 @@
     .banner-button-card{
         position:absolute;
     }
+    /* banner-part-end */
+
+    /* main-part-start */
+    main{
+        padding-top: 0%;
+    }
+    .change-habit-title-content{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .habit-title{
+        font-size: 2rem;
+    }
+    .habit-description{
+        margin: 0rem 1rem;
+        line-height: 1.3rem;
+    }
+    /* change-habit-detail-card-start */
+
+    .change-habit-detail{
+        max-width: 100%;
+        margin: 3.6rem auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+       justify-items: center;
+        /* gap: 2.5rem; */
+    }
+    .habit-card-img{
+        margin-left: 1.7rem;
+    }
 }
+

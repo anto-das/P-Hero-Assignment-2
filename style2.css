@@ -8,6 +8,9 @@ body{
 .display{
     display: flex;
 }
+.text-color{
+    color: rgba(255, 255, 255, 0.5);
+}
 .color{
     color: rgba(255, 255, 255);
     font-size: 1.2rem;
@@ -42,7 +45,9 @@ header{
     font-size: 2.2rem;
     font-weight: 800;
 }
-
+.menubar-style{
+    display: none;
+}
 .menubar-content{
     max-width: 45%;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -136,7 +141,6 @@ li{
     display: inline-block;
     margin-top: 1.7rem;
     margin-left: 1.4rem;
-    /* margin: 1.2rem 0rem 1.2rem 0.5rem; */
 }
 .number{
     margin: 0%;
@@ -151,7 +155,6 @@ li{
     font-weight: 400;
 }
 .video-content-2{
-    /* max-width: 155px; */
     padding: 1.2rem 0.5rem;
 }
 .position-button-content-2{
@@ -179,3 +182,58 @@ li{
     position:absolute;
 }
 /* banner-part-close */
+
+/* main-part-start */
+main{
+    background: rgb(0, 0, 0);
+    padding-top: 6.2rem;
+}
+/* change-habit-start */
+.change-habit-title-content{
+    max-width: 48%;
+    margin: 0 auto;
+}
+.habit-title{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 0%;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.habit-description{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding-bottom: 0.8rem;
+    letter-spacing: 0.018rem;
+}
+/* change-habit-close */
+
+/* change-habit-cards-start */
+.change-habit-detail{
+    max-width: 79%;
+    margin: 3.6rem 11.8rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+}
+.change-habit-card{
+    max-width: 231px;
+}
+.habit-card-img{
+    border-radius: 50%;
+    margin-left: 0.7rem;
+}
+.card-title{
+    color: rgb(255, 255, 255);
+   text-align: center;
+   font-size: 1.1rem;
+   font-weight: 600;
+}
+.card-description{
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+    letter-spacing: 0.018px;
+}
