@@ -165,8 +165,8 @@
         margin-top: 4rem;
     }
     .last-touch{
-        margin-left: 1.5rem;
-        padding-top: 0rem;
+        margin: 0rem 1.5rem;
+        padding-top: 0.8rem;
         text-align: left;
     }
 }
