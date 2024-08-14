@@ -103,10 +103,20 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
        justify-items: center;
-        /* gap: 2.5rem; */
     }
     .habit-card-img{
         margin-left: 1.7rem;
+    }
+
+    /* run-container-start */
+    .run-container{
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .run-content{
+        max-width: 100%;
+        margin: 2.5rem 1.4rem;
+        margin-bottom: 0%;
     }
 }
 
